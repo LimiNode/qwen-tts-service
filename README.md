@@ -14,3 +14,14 @@ qwen_tts_native_worker
         ↓
 qwen.dll / qwentts.cpp
 ```
+
+Scope будущего проекта:
+
+- localhost WebSocket API;
+- persistent Bridge instance;
+- synthesis/cancellation;
+- binary streaming PCM;
+- client sessions;
+- bounded output queues / slow-client policy;
+- health/capabilities;
+- later Unity client support.
